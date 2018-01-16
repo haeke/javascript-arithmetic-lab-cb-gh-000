@@ -28,6 +28,7 @@ function makeInt(n) {
   if (typeof n !== 'number') {
     return n;
   } else {
+    n = parseInt(n);
     n = Math.log10(n);
     return n;
   }
