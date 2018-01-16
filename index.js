@@ -24,14 +24,7 @@ function dec(n) {
 }
 
 function makeInt(n) {
-  n = parseInt(n);
-  if (typeof n !== 'number') {
-    return n;
-  } else if ( n < 0) {
-    return 0;
-    } else {
-    return n;
-  }
+  
 }
 
 function preserveDecimal(n) {
